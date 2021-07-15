@@ -19,5 +19,7 @@ You will also see any lint errors in the console.
 ### Assumptions
 
 Parent cateogory of items is same as objectives category
-Invalid parentId attributes that do not have their own entry need to be displayed
+
+Invalid parentId attributes that do not have their own entry need not to be displayed
+
 Index of the objectives will repeat with alphabet sequence, if number exceeds 25th index
