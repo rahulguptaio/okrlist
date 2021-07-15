@@ -1,0 +1,14 @@
+.objective {
+  padding: 2rem 5rem;
+  display: flex;
+}
+
+.objective span {
+  font-size: 1.8vw;
+  margin-left: 5rem;
+}
+
+div.okr-objectives > div:nth-of-type(odd) {
+  background: lightcyan;
+  border-radius: 1rem;
+}

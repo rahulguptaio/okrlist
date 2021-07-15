@@ -1,0 +1,33 @@
+.collapse-button {
+  display: inline-block;
+  border: none;
+  background: transparent;
+  vertical-align: middle;
+}
+
+.collapse-button img {
+  cursor: pointer;
+}
+
+.collapse-title {
+  display: inline-block;
+  margin: 1rem;
+  font-weight: bold;
+  font-size: 2vw;
+}
+
+.collapse-content.collapsed {
+  display: none;
+}
+
+.collapsed-content.expanded {
+  display: block;
+}
+
+.show {
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
